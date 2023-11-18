@@ -12,9 +12,9 @@ export const TabTables = () => {
   };
 
   return (
-    <section>
-      <div ref={divTabs} className="tabs tabs-boxed">
-        <a className="tab tab-active rounded-none" onClick={handleActive}>
+    <section className="mt-10">
+      <div ref={divTabs} className="tabs tabs-boxed border-primary border">
+        <a className="tab tab-active rounded-none " onClick={handleActive}>
           ALL MATCHES
         </a>
         <a className="tab" onClick={handleActive}>
