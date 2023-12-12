@@ -7,6 +7,7 @@ import { Loading } from "@/components/Loading";
 import { useEffect, useState } from "react";
 
 export default function Home() {
+  
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
